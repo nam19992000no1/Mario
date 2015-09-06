@@ -85,9 +85,9 @@
                                 ownView:[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"light1.png"]]
                                 inScene:self];
     light3.speed = marioRunSpeed-15.0;
-    light1.view.frame = CGRectMake(200, 150, 100,400 );
-    light2.view.frame = CGRectMake(100, 200, 100,400 );
-    light3.view.frame = CGRectMake(0, 220, 100,400 );
+    light1.view.frame = CGRectMake(200, 350, 100,200 );
+    light2.view.frame = CGRectMake(100, 400, 100,200 );
+    light3.view.frame = CGRectMake(0, 420, 100,200 );
     
     [self addSprites:light1];
     [self addSprites:light2];
